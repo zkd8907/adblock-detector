@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/zkd8907/adblock-detector/issues"
   },
-  "homepage": "https://github.com/zkd8907/adblock-detector#readme"
+  "homepage": "https://github.com/zkd8907/adblock-detector#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
 }

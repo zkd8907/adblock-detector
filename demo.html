@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Adblock Detector</title>
+        <script src="build/detector.js"></script>
+    </head>
+    <body>
+        <script>
+            window.adBlockDetector.detect(function(exists){
+                console.log(`AdBlock is${exists?'':' not'} exists`);
+            });
+        </script>
+    </body>
+</html>

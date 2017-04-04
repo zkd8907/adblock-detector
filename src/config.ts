@@ -1,1 +1,0 @@
-export string CHARACTERISTIC = 'hellow';
