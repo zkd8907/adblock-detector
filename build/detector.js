@@ -17,8 +17,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     var exports = {};
 
-    if ((typeof define === 'undefined' ? 'undefined' : _typeof(define)) === 'object' && typeof define.cmd === 'function') {
-        // TODO: Support CMD and AMD
+    if (typeof define === 'function' && (define.amd !== 'undefined' || define.cmd !== 'undefined')) {
+        define(exports);
     } else {
         window.adBlockDetector = exports;
     }
